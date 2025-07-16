@@ -39,6 +39,7 @@ public class Stepdef1 {
 	File src=driver.getScreenshotAs(OutputType.FILE);
 	FileHandler.copy(src,dest);
 	Thread.sleep(3000);
+        System.out.println("Test has been Executed");
 	    
 	}
 
